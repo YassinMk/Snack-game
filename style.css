@@ -1,0 +1,28 @@
+body{
+    margin: 10px;
+    text-align: center;
+    
+}
+.grid{
+    margin: 150px auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width:200px ;
+    max-height: 200px;
+    border: 1px solid black;
+}
+.square{
+    width: 20px;
+    height: 20px;
+    
+}
+header{
+    width: 40%;
+    margin: 0 auto;
+}
+.snake{
+background-color: green; 
+}
+.apple{
+    background-color: red;
+}
